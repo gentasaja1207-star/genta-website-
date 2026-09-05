@@ -96,7 +96,7 @@
   }
 
   /* ============ HERO CINEMATIC SEQUENCE ============ */
-  const typedTarget = 'Rekayasa perangkat lunak yang presisi, bukan tebakan.';
+  const typedTarget = 'setiap ide memiliki potensi tugas saya adalah mewujudkannya.';
   const typedEl = document.getElementById('typedText');
 
   function typeLine(text, el, speed, done) {
