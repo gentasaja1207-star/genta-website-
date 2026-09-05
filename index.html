@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Genta 1207 — Full Stack &amp; C++ Developer</title>
+<meta name="description" content="Genta 1207 — Full Stack Developer, C++ Engineer, Reverse Engineering Specialist, Bot &amp; Automation Developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="preloader">
+  <div class="pl-log" id="plLog">booting <b>genta_1207</b>…</div>
+  <div class="pl-bar" id="plBar"><i></i></div>
+</div>
+
+<div id="addrRail"></div>
+<canvas id="particles"></canvas>
+<div id="cursor-glow"></div>
+
+<header id="siteHeader">
+  <div class="wrap">
+    <nav>
+      <a href="#home" class="brand">
+        <span class="logo-badge press-fx"><img src="assets/logo/genta-logo.webp" alt="Logo Genta 1207" width="36" height="36"></span>
+        GENTA <b>1207</b>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Kapabilitas</a></li>
+        <li><a href="#process">Proses</a></li>
+        <li><a href="#services">Layanan</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hubungi Saya</a>
+      <button class="burger" id="burgerBtn" aria-label="Buka menu"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+
+<div class="mnav" id="mnav">
+  <a href="#home">Home</a>
+  <a href="#about">Tentang</a>
+  <a href="#skills">Kapabilitas</a>
+  <a href="#process">Proses</a>
+  <a href="#services">Layanan</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Kontak</a>
+</div>
+
+<!-- ============== HERO ============== -->
+<section id="home">
+  <div class="hero-inner">
+    <div class="ns-tag eyebrow" id="heroEyebrow">sys::boot — online</div>
+
+    <div class="logo-stage" id="logoStage">
+      <div class="logo-ring"></div>
+      <span class="logo-badge press-fx">
+        <img src="assets/logo/genta-logo.webp" alt="Logo Genta 1207" width="132" height="132">
+      </span>
+      <div class="scan-sweep"></div>
+    </div>
+
+    <h1 class="headline" id="typedHeadline"><span id="typedText"></span><span class="cursor-caret"></span></h1>
+
+    <div class="roles" id="heroRoles">
+      <div class="role-pill"><b>Full Stack</b> Developer</div>
+      <div class="role-pill"><b>C++</b> Developer</div>
+      <div class="role-pill">Reverse Engineering <b>Specialist</b></div>
+      <div class="role-pill">Bot <b>Developer</b></div>
+      <div class="role-pill">Automation <b>Developer</b></div>
+    </div>
+
+    <div class="hero-actions" id="heroActions">
+      <a href="#skills" class="btn btn-primary magnetic">Lihat Kapabilitas</a>
+      <a href="#contact" class="btn btn-ghost magnetic">Hubungi Saya</a>
+    </div>
+  </div>
+
+  <div class="scroll-cue" id="scrollCue">SCROLL<i></i></div>
+</section>
+
+<!-- ============== ABOUT ============== -->
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-copy reveal">
+      <div class="ns-tag">sys::about</div>
+      <h2>Menulis kode seperti membedah sebuah sistem.</h2>
+      <p>Fokus pada rekayasa C++, reverse engineering, sistem automasi, pengembangan bot, dan solusi perangkat lunak tingkat lanjut. Setiap project didekati sebagai sistem yang harus dipahami dulu sebelum dibangun — bukan ditebak-tebak.</p>
+
+      <div class="expertise-list">
+        <div class="expertise-item"><i>0x01</i>C++ Engineering</div>
+        <div class="expertise-item"><i>0x02</i>Software Development</div>
+        <div class="expertise-item"><i>0x03</i>Reverse Engineering</div>
+        <div class="expertise-item"><i>0x04</i>Automation</div>
+        <div class="expertise-item"><i>0x05</i>System Programming</div>
+        <div class="expertise-item"><i>0x06</i>Problem Solving</div>
+      </div>
+    </div>
+
+    <div class="about-visual reveal">
+      <div class="orbit-ring r1"></div>
+      <div class="orbit-ring r2"></div>
+      <span class="orbit-core logo-badge press-fx"><img src="assets/logo/genta-logo.webp" alt="Simbol Genta 1207" width="52" height="52"></span>
+      <span class="orbit-tick" style="top:4%;left:46%;">C++</span>
+      <span class="orbit-tick" style="top:48%;left:0%;">ASM</span>
+      <span class="orbit-tick" style="top:84%;left:68%;">JS</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============== SKILLS ============== -->
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="ns-tag">sys::skills</div>
+      <div class="sec-title">Kapabilitas &amp; Tools</div>
+      <p class="sec-sub">Bahasa, tools, dan disiplin teknis yang jadi fondasi setiap project.</p>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card core reveal bracket" data-pct="100">
+        <div class="core-badge">core</div>
+        <div class="skill-top">
+          <div class="skill-icon"><img src="assets/icons/cpp.webp" alt="Logo C++" width="24" height="24"></div>
+          <div><div class="skill-name">C++</div><div class="skill-role">Programming Language</div></div>
+        </div>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <div class="skill-pct-row"><span>Proficiency</span><span class="skill-pct"><span class="pct-num">0</span>%</span></div>
+      </div>
+
+      <div class="skill-card reveal bracket" data-pct="100">
+        <div class="skill-top">
+          <div class="skill-icon"><img src="assets/icons/html.webp" alt="Logo HTML" width="24" height="24"></div>
+          <div><div class="skill-name">HTML</div><div class="skill-role">Markup Language</div></div>
+        </div>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <div class="skill-pct-row"><span>Proficiency</span><span class="skill-pct"><span class="pct-num">0</span>%</span></div>
+      </div>
+
+      <div class="skill-card reveal bracket" data-pct="100">
+        <div class="skill-top">
+          <div class="skill-icon"><img src="assets/icons/css.webp" alt="Logo CSS" width="24" height="24"></div>
+          <div><div class="skill-name">CSS</div><div class="skill-role">Styling Language</div></div>
+        </div>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <div class="skill-pct-row"><span>Proficiency</span><span class="skill-pct"><span class="pct-num">0</span>%</span></div>
+      </div>
+
+      <div class="skill-card reveal bracket" data-pct="100">
+        <div class="skill-top">
+          <div class="skill-icon"><img src="assets/icons/javascript.webp" alt="Logo JavaScript" width="24" height="24"></div>
+          <div><div class="skill-name">JavaScript</div><div class="skill-role">Programming Language</div></div>
+        </div>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <div class="skill-pct-row"><span>Proficiency</span><span class="skill-pct"><span class="pct-num">0</span>%</span></div>
+      </div>
+
+      <div class="skill-card core reveal bracket" data-pct="100">
+        <div class="core-badge">core</div>
+        <div class="skill-top">
+          <div class="skill-icon"><img src="assets/icons/ida-pro.webp" alt="Logo IDA Pro" width="24" height="24"></div>
+          <div><div class="skill-name">IDA Pro</div><div class="skill-role">Disassembler &amp; Debugger</div></div>
+        </div>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <div class="skill-pct-row"><span>Proficiency</span><span class="skill-pct"><span class="pct-num">0</span>%</span></div>
+      </div>
+
+      <div class="skill-card core reveal bracket" data-pct="87">
+        <div class="core-badge">core</div>
+        <div class="skill-top">
+          <div class="skill-icon"><img src="assets/icons/reverse.webp" alt="Ikon reverse engineering" width="24" height="24"></div>
+          <div><div class="skill-name">Reverse Engineering</div><div class="skill-role">System Analysis</div></div>
+        </div>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <div class="skill-pct-row"><span>Proficiency</span><span class="skill-pct"><span class="pct-num">0</span>%</span></div>
+      </div>
+
+      <div class="skill-card core reveal bracket" data-pct="100">
+        <div class="core-badge">core</div>
+        <div class="skill-top">
+          <div class="skill-icon"><img src="assets/icons/bot.webp" alt="Ikon bot developer" width="24" height="24"></div>
+          <div><div class="skill-name">Bot Developer</div><div class="skill-role">Automation Bots</div></div>
+        </div>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <div class="skill-pct-row"><span>Proficiency</span><span class="skill-pct"><span class="pct-num">0</span>%</span></div>
+      </div>
+
+      <div class="skill-card core reveal bracket" data-pct="100">
+        <div class="core-badge">core</div>
+        <div class="skill-top">
+          <div class="skill-icon"><img src="assets/icons/automation.webp" alt="Ikon automation developer" width="24" height="24"></div>
+          <div><div class="skill-name">Automation Developer</div><div class="skill-role">Systems &amp; Scripting</div></div>
+        </div>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <div class="skill-pct-row"><span>Proficiency</span><span class="skill-pct"><span class="pct-num">0</span>%</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============== PROCESS ============== -->
+<section id="process">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="ns-tag">sys::process</div>
+      <div class="sec-title">Bagaimana project berjalan</div>
+      <p class="sec-sub">Alur kerja yang jelas dari awal diskusi sampai project selesai dipakai.</p>
+    </div>
+
+    <div class="process-list">
+      <div class="process-item reveal">
+        <div class="process-idx">0x00</div>
+        <div class="process-body">
+          <h3>Diskusi &amp; analisis kebutuhan</h3>
+          <p>Memahami tujuan, batasan teknis, dan hasil akhir yang diinginkan sebelum menyentuh kode.</p>
+        </div>
+      </div>
+      <div class="process-item reveal">
+        <div class="process-idx">0x01</div>
+        <div class="process-body">
+          <h3>Rancangan arsitektur</h3>
+          <p>Menentukan struktur sistem, stack yang dipakai, dan rencana teknis secara menyeluruh.</p>
+        </div>
+      </div>
+      <div class="process-item reveal">
+        <div class="process-idx">0x02</div>
+        <div class="process-body">
+          <h3>Build &amp; iterasi</h3>
+          <p>Pengembangan bertahap dengan update progres, supaya arah project tetap terkontrol.</p>
+        </div>
+      </div>
+      <div class="process-item reveal">
+        <div class="process-idx">0x03</div>
+        <div class="process-body">
+          <h3>Testing &amp; hardening</h3>
+          <p>Pengujian fungsi, performa, dan celah sebelum dianggap siap dipakai.</p>
+        </div>
+      </div>
+      <div class="process-item reveal">
+        <div class="process-idx">0x04</div>
+        <div class="process-body">
+          <h3>Deploy &amp; dukungan</h3>
+          <p>Rilis ke lingkungan final dengan dukungan lanjutan bila dibutuhkan.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== SERVICES / PROJECTS ============== -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="ns-tag">sys::services</div>
+      <div class="sec-title">Layanan &amp; Project</div>
+      <p class="sec-sub">Jenis pekerjaan yang biasa saya kerjakan.</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal bracket">
+        <div class="project-tag">web</div>
+        <h3>Website Development</h3>
+        <p>Website custom, modern, cepat, dan responsif untuk berbagai kebutuhan.</p>
+      </div>
+      <div class="project-card reveal bracket">
+        <div class="project-tag">c++</div>
+        <h3>C++ Application</h3>
+        <p>Software engineering dan custom tools dengan performa tinggi.</p>
+      </div>
+      <div class="project-card reveal bracket">
+        <div class="project-tag">android</div>
+        <h3>Android Root Service</h3>
+        <p>Layanan root Android profesional untuk kustomisasi penuh perangkat.</p>
+      </div>
+      <div class="project-card reveal bracket">
+        <div class="project-tag">ios</div>
+        <h3>iPhone Jailbreak Service</h3>
+        <p>Layanan jailbreak iPhone untuk membuka batasan sistem iOS.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FAQ ============== -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="ns-tag">sys::faq</div>
+      <div class="sec-title">Pertanyaan umum</div>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q"><span>Berapa lama proses pengerjaan project?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Tergantung kompleksitas. Estimasi waktu dibahas di awal setelah kebutuhan jelas, pada tahap diskusi &amp; analisis.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Apakah bisa request revisi?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Bisa. Revisi termasuk bagian dari tahap testing sebelum project dianggap selesai.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Teknologi apa yang biasa dipakai?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Menyesuaikan kebutuhan project — umumnya C++, JavaScript, HTML/CSS, hingga scripting untuk automasi dan bot.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Bagaimana cara mulai kerja sama?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Hubungi lewat salah satu sosial media di bagian kontak untuk mulai diskusi kebutuhan.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CONTACT ============== -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-card reveal">
+      <div class="ns-tag">sys::contact</div>
+      <div class="sec-title">Hubungi Saya</div>
+      <p class="sec-sub">Tertarik bekerja sama atau butuh jasa? Hubungi lewat sosial media di bawah.</p>
+      <div class="social-row">
+        <a class="social-btn" href="https://www.instagram.com/gentadecarlo?igsi=MW5xM245YWU1eHNkOA==" target="_blank" rel="noopener">Instagram</a>
+        <a class="social-btn" href="https://www.tiktok.com/@gentadevelopers?_r=1&_t=ZS-99StzjT9Wiu" target="_blank" rel="noopener">TikTok</a>
+        <a class="social-btn" href="https://youtube.com/@gentadeveloper?si=ixKb5IdzL6PCdfeo" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; <span id="year"></span> <b>Genta 1207</b>. All rights reserved.
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
